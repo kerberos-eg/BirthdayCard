@@ -32,12 +32,28 @@ class BusinessCardApp extends StatelessWidget {
                 fontFamily: 'SecularOne',
               ),
             ),
-            Container(
-              color: Colors.white,
-              child: Row(
-                children: [
-                  Icon(Icons.phone),
-                ],
+            Padding(
+              padding: EdgeInsets.all(20.0),
+              child: Container(
+                height: 65,
+                color: Colors.white,
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.phone,
+                      size: 40,
+                      color: Color(0XFF2B475E),
+                    ),
+                    Text(
+                      '(002)01007620250',
+                      style: TextStyle(
+                        fontFamily: 'SecularOne',
+                        fontSize: 32,
+                        color: Color(0XFF2B475E),
+                      ),
+                    ),
+                  ],
+                ),
               ),
             )
           ],
